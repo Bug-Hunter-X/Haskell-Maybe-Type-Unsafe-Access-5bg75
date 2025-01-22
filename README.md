@@ -1,0 +1,3 @@
+# Haskell Maybe Type Unsafe Access
+This repository demonstrates a common error in Haskell programming: unsafe access to the `Maybe` type. The `bug.hs` file contains code that attempts to access a `Maybe` value without first checking if it contains `Just` or `Nothing`. This leads to a runtime error.
+The `bugSolution.hs` file shows the corrected code using safe pattern matching and the `maybe` function to handle the `Nothing` case gracefully.  This example highlights the importance of robust error handling when working with `Maybe` values in Haskell. 
